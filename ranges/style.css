@@ -1,0 +1,363 @@
+div {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: rgb(0,0,0); 
+}
+.r {
+	background-color: transparent; 
+}
+.boxa {
+	top: 52px;
+left: 0px;
+
+}
+.boxb {
+top: 102px;
+left: 0px;
+}
+.boxc {
+	top: 152px;
+	left: 0px;
+}
+.boxd {
+	top: 202px;
+	left: 0px;
+}
+.boxe {
+	top: 0px;
+	left: 52px;
+}
+.boxf {
+	top: 0px;
+	left: 102px;
+}
+.boxg {
+	top: 52px;
+	left: 154px;
+}
+.boxh {
+	top: 104px;
+	left: 52px;
+}
+.boxi {
+	top: 104px;
+	left: 102px;
+}
+.boxj {
+	top: 104px;
+	left: 152px;
+}
+.boxk {
+	top: 104px;
+	left: 154px;
+}
+.boxl {
+	top: 156px;
+	left: 104px;
+}
+.boxm {
+	top: 208px;
+	left: 154px;
+}
+.boxn {
+	top: 208px;
+	left: 0px;
+}
+.a1 {
+	top: 0px;
+	left: 238px;
+}
+.a2 {
+	top: 0px;
+	left: 290px;
+}
+.a3 {
+	top: 50px;
+	left: 238px;
+}
+.a4 {
+	top: 104px;
+	left: 238px;
+}
+.a5 {
+	top: 52px;
+	left: 238px;
+}
+.a6 {
+	top: 156px;
+	left: 238px;
+}
+.a7 {
+	top: 104px;
+	left: 290px;
+}
+.a8 {
+	top: 52px;
+	left: 342px;
+}
+.a9 {
+	top: 102px;
+	left: 342px;
+}
+.a10 {
+	top: 152px;
+	left: 342px;
+}
+.a11 {
+	top: 202px;
+	left: 342px;
+}
+.a12 {
+	top: 208px;
+	left: 342px;
+}
+.n1 {
+	top: 0px;
+	left: 422px;
+}
+.n2 {
+	top: 50px;
+	left: 422px;
+}
+.n3 {
+	top: 102px;
+	left: 422px;
+}
+.n4 {
+	top: 154px;
+	left: 422px;
+}
+.n5 {
+	top: 206px;
+	left: 422px;
+}
+.n6 {
+	top: 50px;
+	left: 474px;
+}
+.n7 {
+	top: 102px;
+	left: 504px;
+}
+.n8 {
+	top: 154px;
+	left: 536px;
+}
+.n9 {
+	top: 50px;
+	left: 588px;
+}
+.n10 {
+	top: 100px;
+	left: 588px;
+}
+.n11 {
+	top: 150px;
+	left: 588px;
+}
+.n12 {
+	top: 200px;
+	left: 588px;
+}
+.n13 {
+	top: 208px;
+	left: 588px;
+}
+.g1 {
+	top: 0px;
+	left: 668px;
+}
+.g2 {
+	top: 52px;
+	left: 668px;
+}
+.g3 {
+	top: 104px;
+	left: 668px;
+}
+.g4 {
+	top: 156px;
+	left: 668px;
+}
+.g5 {
+	top: 0px;
+	left: 718px;
+}
+.g6 {
+	top: 0px;
+	left: 768px;
+}
+.g7 {
+	top: 0px;
+	left: 774px;
+}
+.g8 {
+	top: 52px;
+	left: 826px;
+}
+.g9 {
+	top: 208px;
+	left: 720px;
+}
+.g10 {
+	top: 208px;
+	left: 770px;
+}
+.g11 {
+	top: 208px;
+	left: 774px;
+}
+.g12 {
+	top: 208px;
+	left: 826px;
+}
+.g13 {
+	top: 158px;
+	left: 826px;
+}
+.g14 {
+	top: 128px;
+	left: 826px;
+}
+.g15 {
+	top: 128px;
+	left: 774px;
+}
+.e1 {
+	top: 0px;
+	left: 906px;
+}
+.r, .a, .n, .g, .e, .s {
+	background-color: transparent;
+}
+.e2 {
+	top: 52px;
+	left: 906px;
+}
+.e3 {
+	top: 104px;
+	left: 906px;
+}
+.e4 {
+	top: 154px;
+	left: 906px;
+}
+.e5 {
+	top: 0px;
+	left: 956px;
+}
+.e6 {
+	top: 104px;
+	left: 958px;
+}
+.e7 {
+	top: 208px;
+	left: 958px;
+}
+.e8 {
+	top: 156px;
+	left: 906px;
+}
+.e9 {
+	top: 0px;
+	left: 1006px;
+}
+.e10 {
+	top: 208px;
+	left: 1010px;
+}
+.e11 {
+	top: 0px;
+	left: 1010px;
+}
+
+
+p {
+	position: absolute;
+	top: 300px;
+	width: 300px;
+}
+
+.s1 {
+	top: 52px;
+	left: 1090px;
+}
+.s2 {
+	top: 208px;
+	left: 1090px;
+}
+.s3 {
+	top: 156px;
+	left: 1090px;
+}
+.s4{
+	top: 0px;
+	left: 1142px;
+}
+.s5 {
+	top: 0px;
+	left: 1194px;
+}
+.s6 {
+	top: 0px;
+	left: 1246px;
+}
+.s7 {
+	top: 50px;
+	left: 1246px;
+}
+.s8 {
+	top: 52px;
+	left: 1246px;
+}
+.s9 {
+	top: 208px;
+	left: 1142px;
+}
+.s10 {
+	top: 208px;
+	left: 1192px;
+}
+.s11 {
+	top: 208px;
+	left: 1246px;
+}
+.s12 {
+	top: 208px;
+	left: 1194px;
+}
+.s13 {
+	top: 156px;
+	left: 1246px;
+}
+.s14 {
+	top: 104px;
+	left: 1168px;
+}
+.s15 {
+	top: 78px;
+	left: 1129px;
+}
+.s16 {
+	top: 128px;
+	left: 1204px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
