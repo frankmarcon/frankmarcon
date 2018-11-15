@@ -1,0 +1,148 @@
+.bg {
+	position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("giphy (3).gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.sh {
+	position: absolute; 
+	top: 450px;
+	left: 1200px;
+	width: 200vw;
+	height: 200vh;
+	background-image: url("horse.png");
+	transform: scale(1.8);
+}
+
+.at {
+	position: absolute; 
+	top: 270px;
+	left: 550px;
+	width: 200vw;
+	height: 200vh;
+	background-image: url("astrotitle.png");
+	background-repeat: no-repeat;
+	transform: scale(1.5);
+}
+
+.text1 {
+	position: absolute;
+	top: 30px;
+	left: 160px;
+	font-size: 50px;
+	font-family: futura;
+	color: white;
+}
+
+.text2 {
+	position: absolute;
+	top: 90px;
+	left: 230px;
+	font-size: 50px;
+	font-family: futura;
+	color: white;
+}
+
+.boxa {
+	position: absolute;
+	width: 80px;
+	height: 50px;
+	top: 37px;
+	left: 65px;
+	background-color: rgb(255,0,0);
+}
+
+.nov {
+	position: absolute;
+	top: 42px;
+	left: 68px;
+	font-size: 30px;
+	font-family: futura;
+	color: white;
+}
+
+.last {
+	position: absolute;
+	top: 90px;
+	left: 72px;
+	font-size: 50px;
+	font-family: futura;
+	color: white;
+}
+
+
+@media ( max-width: 500px) {
+	.sh {
+		top: 350px;
+		left: -700px;
+		transform: scale(1.4);
+	}
+	.at {
+		top: -230px;
+		left: -260px;
+		transform: scale(.85);
+	}
+	.text1 {
+		top: 20px;
+		left: 95px;
+		font-family: futura;
+		color: white;
+		font-size: 27px;
+	}
+	.text2 {
+		top: 60px;
+		left: 140px;
+		font-family: futura;
+		color: white;
+		font-size: 27px;
+	}
+	.boxa {
+		top: 20px;
+		left: 25px;
+		width: 60px;
+		height: 35px;
+		background-color: rgb(255,0,0);
+	}
+	.nov {
+		top: 24px;
+		left: 28px;
+		font-size: 22px;
+	}
+	.last {
+		top: 60px;
+		left: 39px;
+		font-size: 27px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
