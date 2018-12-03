@@ -1,0 +1,101 @@
+.bg {
+	position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("trops.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.boxa {
+	position: absolute;
+	width: 1700px;
+	height: 160px;
+	top: 0px;
+	left: 0px;
+	background-color: rgb(255,255,255);
+}
+
+.text1 {
+	position: absolute;
+	top: -5px;
+	left: 200px;
+	font-size: 120px;
+	font-family: futura;
+	color: black;
+}
+
+.boxb {
+	position: absolute;
+	width: 350px;
+	height: 120px;
+	top: 260px;
+	left: 80px;
+	background-color: rgb(255,255,255);
+}
+
+.boxc {
+	position: absolute;
+	width: 350px;
+	height: 120px;
+	top: 480px;
+	left: 80px;
+	background-color: rgb(255,255,255);
+}
+
+.boxd {
+	position: absolute;
+	width: 350px;
+	height: 120px;
+	top: 700px;
+	left: 80px;
+	background-color: rgb(255,255,255);
+}
+
+.text2 {
+	position: absolute;
+	top: 280px;
+	left: 100px;
+	font-size: 60px;
+	font-family: futura;
+	color: black;
+}
+
+.text3 {
+	position: absolute;
+	top: 500px;
+	left: 150px;
+	font-size: 60px;
+	font-family: futura;
+	color: black;
+}
+
+.text4 {
+	position: absolute;
+	top: 720px;
+	left: 160px;
+	font-size: 60px;
+	font-family: futura;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
