@@ -7,7 +7,19 @@
   background-image: url("trops.jpg");
   background-size: cover;
   background-position: center;
+  background-color: black;
+  transition: all 500ms ease-in-out;
 }
+
+.b2 {
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+
 
 .boxa {
 	position: absolute;
@@ -32,53 +44,501 @@
 	width: 350px;
 	height: 120px;
 	top: 260px;
-	left: 80px;
+	left: 100px;
 	background-color: rgb(255,255,255);
+}
+
+.boxi1 {
+	position: absolute;
+	width: 350px;
+	height: 320px;
+	top: 380px;
+	left: 100px;
+	background-color: black;
+}
+
+.texti1 {
+	position: absolute;
+	font-size: 22px;
+	top: 390px;
+	left: 120px;
+	color: white;
+	width: 310px;
+	font-family: futura;
 }
 
 .boxc {
 	position: absolute;
 	width: 350px;
 	height: 120px;
-	top: 480px;
-	left: 80px;
+	top: 260px;
+	left: 650px;
 	background-color: rgb(255,255,255);
+}
+
+.boxi2 {
+	position: absolute;
+	top: 380px;
+	left: 650px;
+	width: 350px;
+	height: 380px;
+	background-color: black;
+}
+
+.texti2 {
+	position: absolute;
+	font-size: 22px;
+	top: 390px;
+	left: 670px;
+	color: white;
+	width: 310px;
+	font-family: futura;
 }
 
 .boxd {
 	position: absolute;
 	width: 350px;
 	height: 120px;
-	top: 700px;
-	left: 80px;
+	top: 260px;
+	left: 1200px;
 	background-color: rgb(255,255,255);
+}
+
+.boxi3 {
+	position: absolute;
+	top: 380px;
+	left: 1200px;
+	width: 350px;
+	height: 380px;
+	background-color: black;
+}
+
+.texti3 {
+	position: absolute;
+	font-size: 22px;
+	top: 390px;
+	left: 1220px;
+	color: white;
+	width: 310px;
+	font-family: futura;
 }
 
 .text2 {
 	position: absolute;
 	top: 280px;
-	left: 100px;
+	left: 1220px;
 	font-size: 60px;
 	font-family: futura;
 	color: black;
+	pointer-events: none;
 }
 
 .text3 {
 	position: absolute;
-	top: 500px;
-	left: 150px;
+	top: 280px;
+	left: 710px;
 	font-size: 60px;
 	font-family: futura;
 	color: black;
+	pointer-events: none;
 }
 
 .text4 {
 	position: absolute;
-	top: 720px;
-	left: 160px;
+	top: 280px;
+	left: 180px;
 	font-size: 60px;
 	font-family: futura;
 	color: black;
+	pointer-events: none;
+}
+
+.ctext1 {
+	position: absolute;
+	top: -5px;
+	left: 400px;
+	font-size: 120px;
+	font-family: futura;
+	color: black;
+}
+
+
+.carnobox {
+	position: absolute;
+	background-image: url("carnobox.jpg");
+	top: 200px;
+	left: 50px;
+	width: 200px;
+	height: 200px;
+}
+
+.parabox {
+	position: absolute;
+	background-image: url("parabox.jpg");
+	top: 450px;
+	left: 50px;
+	width: 200px;
+	height: 200px;
+}
+.gallbox {
+	position: absolute;
+	background-image: url("gallbox.jpg");
+	top: 700px;
+	left: 50px;
+	width: 200px;
+	height: 200px;
+	
+}
+
+.box4 {
+	position: absolute;
+	background-image: url("tribox.jpg");
+	top: 200px;
+	left: 300px;
+	width: 200px;
+	height: 200px;
+	
+}
+
+.box5 {
+	position: absolute;
+	background-image: url("ptbox.jpg");
+	top: 450px;
+	left: 300px;
+	width: 200px;
+	height: 200px;
+}
+.box6 {
+	position: absolute;
+	background-image: url("tbox.jpg");
+	top: 700px;
+	left: 300px;
+	width: 200px;
+	height: 200px;
+}
+
+.ttext1 {
+	position: absolute;
+	top: -5px;
+	left: 510px;
+	font-size: 120px;
+	font-family: futura;
+	color: black;
+}
+.jtext1 {
+	position: absolute;
+	top: -5px;
+	left: 510px;
+	font-size: 120px;
+	font-family: futura;
+	color: black;
+}
+.carno {
+	position: absolute;
+	background-image: url(carno.png);
+	top: 250px;
+	left: 450px;
+	width: 1000px;
+	height: 1000px;
+	
+}
+
+.tb1 {
+	position: absolute;
+	background-image: url("probox.jpg");
+	top: 200px;
+	left: 50px;
+	width: 200px;
+	height: 200px;
+}
+.tb2 {
+	position: absolute;
+	background-image: url("herbox.jpg");
+	top: 450px;
+	left: 50px;
+	width: 200px;
+	height: 200px;
+}
+.tb3 {
+	position: absolute;
+	background-image: url("melbox.jpg");
+	top: 700px;
+	left: 50px;
+	width: 200px;
+	height: 200px;
+	
+}
+.tb4 {
+	position: absolute;
+	background-image: url("platbox.jpg");
+	top: 200px;
+	left: 300px;
+	width: 200px;
+	height: 200px;
+	
+}
+.tb5 {
+	position: absolute;
+	background-image: url("stabox.jpg");
+	top: 450px;
+	left: 300px;
+	width: 200px;
+	height: 200px;
+}
+.tb6 {
+	position: absolute;
+	background-image: url("saltbox.jpg");
+	top: 700px;
+	left: 300px;
+	width: 200px;
+	height: 200px;
+}
+.jb1 {
+	position: absolute;
+	background-image: url("bracbox.jpg");
+	top: 200px;
+	left: 50px;
+	width: 200px;
+	height: 200px;
+}
+.jb2 {
+	position: absolute;
+	background-image: url("arcbox.jpg");
+	top: 450px;
+	left: 50px;
+	width: 200px;
+	height: 200px;
+}
+.jb3 {
+	position: absolute;
+	background-image: url("dilbox.jpg");
+	top: 700px;
+	left: 50px;
+	width: 200px;
+	height: 200px;
+	
+}
+.jb4 {
+	position: absolute;
+	background-image: url("allobox.jpg");
+	top: 200px;
+	left: 300px;
+	width: 200px;
+	height: 200px;
+	
+}
+.jb5 {
+	position: absolute;
+	background-image: url("stebox.jpg");
+	top: 450px;
+	left: 300px;
+	width: 200px;
+	height: 200px;
+}
+.jb6 {
+	position: absolute;
+	background-image: url("dipbox.jpg");
+	top: 700px;
+	left: 300px;
+	width: 200px;
+	height: 200px;
+}
+
+.carnoinfo {
+	position: absolute;
+	background-image: url("carnoinfo.png");
+	top: 150px;
+	left: 475px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.tinfo {
+	position: absolute;
+	background-image: url("tinfo.png");
+	top: 150px;
+	left: 490px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.parainfo {
+	position: absolute;
+	background-image: url("parainfo.png");
+	top: 150px;
+	left: 495px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.gallinfo { position: absolute;
+	background-image: url("galinfo.png");
+	top: 150px;
+	left: 495px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+	}
+
+.triinfo {
+	position: absolute;
+	background-image: url("triinfo.png");
+	top: 150px;
+	left: 495px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.ptinfo  {
+	position: absolute;
+	background-image: url("ptinfo.png");
+	top: 150px;
+	left: 495px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.compinfo {
+	position: absolute;
+	background-image: url("compinfo.png");
+	top: 150px;
+	left: 495px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.herinfo {
+	position: absolute;
+	background-image: url("herinfo.png");
+	top: 150px;
+	left: 495px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.melaninfo {
+	position: absolute;
+	background-image: url("melaninfo.png");
+	top: 150px;
+	left: 495px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.platinfo {
+	position: absolute;
+	background-image: url("platinfo.png");
+	top: 150px;
+	left: 505px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.stakinfo {
+	position: absolute;
+	background-image: url("stakinfo.png");
+	top: 150px;
+	left: 505px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.saltinfo {
+	position: absolute;
+	background-image: url("saltinfo.png");
+	top: 150px;
+	left: 505px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.bracinfo {
+	position: absolute;
+	background-image: url("bracinfo.png");
+	top: 150px;
+	left: 505px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.archinfo {
+	position: absolute;
+	background-image: url("archinfo.png");
+	top: 160px;
+	left: 505px;
+	width: 1800px;
+	height: 1300px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.diloinfo {
+	position: absolute;
+	background-image: url("diloinfo.png");
+	top: 150px;
+	left: 475px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.alloinfo {
+	position: absolute;
+	background-image: url("alloinfo.png");
+	top: 150px;
+	left: 495px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.steginfo {
+	position: absolute;
+	background-image: url("steginfo.png");
+	top: 150px;
+	left: 480px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+
+.dipinfo {
+	position: absolute;
+	background-image: url("dipinfo.png");
+	top: 150px;
+	left: 480px;
+	width: 1800px;
+	height: 1200px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
 }
 
 
@@ -91,6 +551,15 @@
 
 
 
+
+
+
+
+
+
+.show {
+	opacity: 1;
+}
 
 
 
