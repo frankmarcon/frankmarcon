@@ -2,18 +2,22 @@ $(document).ready(function(){
   
   setTimeout(function() {
     $(".purple").addClass("alarm");
-  }, 1000);
+  }, 4000);
 
 
 	setTimeout(function() {
     $(".orange").addClass("alarm");
-  }, 1000);
+  }, 4000);
 
 	setTimeout(function() {
     $(".explode").addClass("alarm");
-  }, 2000);
+  }, 5000);
 
 	setTimeout(function() {
     $(".fire").addClass("alarm");
-  }, 2500);
+  }, 5250);
+
+	setTimeout(function() {
+    $(".white").addClass("alarm");
+  }, 4000);
 });

@@ -21,6 +21,12 @@
   animation-iteration-count: infinite;
 }
 
+.grass {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 2000px;
+}
 
 .track {
   position: absolute;
@@ -90,13 +96,16 @@
   position: absolute;
   top: -150px;
   left: 170px;
-  width: 0px;
+  width: 1100px;
   transition: all 1s ease-in-out;
+  opacity: 0;
 }
 
 .explode.alarm {
   width: 1100px;
   top: -150px;
+  left: 170px;
+  opacity: 1;
 }
 
 .fire {
@@ -111,8 +120,19 @@
   top: 200px;
 }
 
-
-
+.white {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1000vh;
+  height: 1500px;
+  background-color: white;
+  opacity: 0;
+   transition: all 1s ease-in-out;
+}
+.white.alarm {
+  opacity:  1;
+}
 
 
 
