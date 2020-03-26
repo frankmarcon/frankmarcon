@@ -99,8 +99,8 @@ body {
 .hero.jumping {
   background-image: url("./img/jumping-sprite.png");
   animation-name: spriteSheet;
-  animation-duration: 1000ms;
-  animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
+  animation-duration: 400ms;
+  animation-timing-function: steps(3); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .hero.attacking {
@@ -114,7 +114,7 @@ body {
   position: absolute;
   width: 220px;
   height: 220px;
-  bottom: 490px;
+  bottom: 380px;
   background-image: url("./img/monster-sprite.png");
   background-size: cover;
   animation-name: spriteSheet;
